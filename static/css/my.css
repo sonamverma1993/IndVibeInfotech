@@ -1,0 +1,65 @@
+#team .member{
+text-align: center;
+justify-content: center;
+border: 1px solid #18d26e;
+background: #ffffff;
+border-radius: 20px;
+width: 260px;
+height: 250px;
+}
+#team .member img{
+    width: 260px;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .rowT{
+    justify-content: center;
+  }
+
+
+  .back-to-toP {
+    position: fixed;
+    color: #fff;
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    left: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 12;
+  }
+  .back-to-toP img{
+    width: 40px; height: 40px; border-radius: 30%;margin-top: 5px;;
+  }
+  .back-to-toP i {
+    padding-top: 12px;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .indvib
+    {
+    font-size: 18px;
+    }
+    .nav-menu{
+      padding-right: 18px;
+    }
+  }
+
+  @media only screen and (max-width:500px)
+  {
+    .indvib
+    {
+    font-size: 14px;
+    }
+  }
+  @media only screen and (max-width:320px)
+  {
+    .indvib
+    {
+    font-size: 9px;
+    }
+  }
