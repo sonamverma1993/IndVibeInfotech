@@ -1,1 +1,1 @@
-web:gnuicorn  Entengle.wsgi
+web: waitress-serve --port=$PORT Entengle.wsgi:application
